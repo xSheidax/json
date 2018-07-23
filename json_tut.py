@@ -41,13 +41,4 @@ class Note():
         except KeyError:
             print('Key', id , 'do not exist!')
 
-n = Note()
-n.load_data('book.txt')
-n.create_new_data('3', 'Maciej', 'Wrzeszcz')
-print(n.data)
-n.show_data('3')
-n.delete_data('3')
-n.show_data('3')
-print(n.data)
-n.write_data('book.txt')
 
